@@ -1,0 +1,27 @@
+PODS:
+  - CustomGuideView (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CustomGuideView (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CustomGuideView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomGuideView: 8d91b73cb43e7311cf62a23fc0d29dd5a7fa6802
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 2e88dca866590587be84f68a1d53672e443a85fd
+
+COCOAPODS: 1.5.3

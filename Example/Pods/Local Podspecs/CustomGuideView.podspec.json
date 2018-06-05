@@ -1,0 +1,22 @@
+{
+  "name": "CustomGuideView",
+  "version": "0.1.0",
+  "summary": "A short description of CustomGuideView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cuizhiwei/CustomGuideView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cuizhiwei": "947666846@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cuizhiwei/CustomGuideView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomGuideView/Classes/**/*"
+}
