@@ -31,7 +31,7 @@
         self.knowBtnBlcok();
     }
 }
-+ (void)showStoreGuideView{
++ (CustomGuideView *)showStoreGuideView{
     CustomGuideView *storeGuideView = [[CustomGuideView alloc]initWithFrame:[UIScreen mainScreen].bounds];
     storeGuideView.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.4];
     [kKeyWindow addSubview:storeGuideView];
