@@ -64,6 +64,8 @@
         [weakstoreGuideView removeFromSuperview];
         [self showStorePlaceGuideView];
     };
+    
+    return storeGuideView;
 }
 + (void)showStorePlaceGuideView{
     CustomGuideView *storeGuideView = [[CustomGuideView alloc]initWithFrame:[UIScreen mainScreen].bounds];

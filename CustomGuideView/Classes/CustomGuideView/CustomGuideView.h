@@ -10,6 +10,6 @@
 
 @interface CustomGuideView : UIView
 @property (nonatomic,strong) UIButton  * knowBtn ;
-@property (nonatomic,copy) void(^knowBtnBlcok) () ;
-+ (void)showStoreGuideView;
+@property (nonatomic,copy) void(^knowBtnBlcok) (void) ;
++ (CustomGuideView *)showStoreGuideView;
 @end
